@@ -83,11 +83,19 @@ summary(glm(data=df, end_status~treatment, family=binomial))
 a.cox <- coxph(Surv(time_to_event, status)~treatment, data=df)
 
 
-ggsurvplot(surv_fit(a.cox), color="#2E9FDF", ggtheme = theme_minimal())
+new_df <- with(df,
+               data.frame(treatment = c("LbA","Lb","Hb","HbA","A","C") )
+)
+new_df
+
+
+ggsurvplot(surv_fit(a.cox, data = df), pallette="#2E9FDF", ggtheme = theme_minimal())
 
 
 
-
+fit <- survfit(a.cox, newdata = new_df)
+ggsurvplot(fit, conf.int = TRUE, palette = "Dark2", 
+           censor = FALSE, surv.median.line = "hv")
 
 
 
