@@ -50,8 +50,8 @@ ggsave(plot= prop_death, "output/prop_death.jpeg")
 # time to cocoon ####
 def_to_cocoon<- df %>%
   ggplot(aes(x = treatment, y=def_to_cocoon, fill=treatment))+
-  geom_boxplot()+
-  geom_point(position = position_jitter(w = 0.1, h = 0), alpha = .5)+
+  geom_boxplot(alpha = .6)+
+  geom_point(position = position_jitter(w = 0.1, h = 0))+
   ylab("days from defecation until cocoon")
 def_to_cocoon
 ggsave(plot= def_to_cocoon, "output/def_to_cocoon.jpeg", width = 5, height = 6)
@@ -111,8 +111,12 @@ pre_winter_weight<-df %>%
   drop_na(prewinter_cocoon_weight)%>%
   ggplot(aes(x=treatment, y=prewinter_cocoon_weight, fill=treatment))+
   geom_boxplot(alpha=.6)+
-  geom_point(position = position_jitter(w = 0.1, h = 0))
+  geom_point(position = position_jitter(w = 0.1, h = 0))+
+  ylab("prewinter cocoon weight")
 pre_winter_weight
+
+
+
 
 ggsave(plot= pre_winter_weight, "output/pre_winter_weight.jpeg", width = 5, height = 6)
 
