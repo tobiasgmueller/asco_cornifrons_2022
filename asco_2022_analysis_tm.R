@@ -56,7 +56,7 @@ ggsave(plot= prop_death, "output/prop_death.jpeg")
 # time to cocoon ####
 def_to_cocoon<- df %>%
   ggplot(aes(x = treatment, y=def_to_cocoon, fill=treatment))+
-  geom_boxplot()+
+  geom_boxplot(alpha = .6)+
   geom_point(position = position_jitter(w = 0.1, h = 0), alpha = .5)+
   ylab("days from defecation until cocoon")+
   facet_wrap(~larva_stage)
