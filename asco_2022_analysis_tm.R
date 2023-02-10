@@ -119,10 +119,16 @@ pre_winter_weight<-df %>%
   ggplot(aes(x=treatment, y=prewinter_cocoon_weight, fill=treatment))+
   geom_boxplot(alpha=.6)+
   geom_point(position = position_jitter(w = 0.1, h = 0))+
+  ylab("prewinter cocoon weight")+
   facet_wrap(~larva_stage)
 pre_winter_weight
 
 ggsave(plot= pre_winter_weight, "output/pre_winter_weight_facet.jpeg", width = 5, height = 6)
+  
+pre_winter_weight
+
+
+
 
 
 df %>%
@@ -145,11 +151,19 @@ df %>%
 a.cox <- coxph(Surv(time_to_event, status)~treatment, data=df)
 
 
-ggsurvplot(surv_fit(a.cox), color="#2E9FDF", ggtheme = theme_minimal())
+new_df <- with(df,
+               data.frame(treatment = c("LbA","Lb","Hb","HbA","A","C") )
+)
+new_df
+
+
+ggsurvplot(surv_fit(a.cox, data = df), pallette="#2E9FDF", ggtheme = theme_minimal())
 
 
 
-
+fit <- survfit(a.cox, newdata = new_df)
+ggsurvplot(fit, conf.int = TRUE, palette = "Dark2", 
+           censor = FALSE, surv.median.line = "hv")
 
 
 
