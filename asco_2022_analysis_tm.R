@@ -17,6 +17,7 @@ rm(list=ls()) # then clean the environment
 
 # read in the data ####
 summary_df <- read_csv("input/asco_plate_maps_summary.csv")
+df_emergence <- read_csv("input/asco_plate_maps_emergence.csv")
 
 summary_df$end_status <- as.factor(summary_df$end_status)
 summary_df$plate <- as.factor(summary_df$plate)
@@ -25,6 +26,8 @@ summary_df$larva_nest <- as.factor(summary_df$larva_nest)
 summary_df$larva_number <- as.factor(summary_df$larva_number)
 summary_df$treatment <- as.factor(summary_df$treatment)
 summary_df$larva_stage <- as.factor(summary_df$larva_stage)
+
+df_emergence$rep<- as.factor(df_emergence$rep)
 
 df<- summary_df%>%
   filter(end_status_long != "removed_dead")
@@ -143,6 +146,27 @@ df %>%
 # not significant difference in pre winter weight but trending same way as everything else
 
 
+
+
+
+
+
+
+# emergence ####
+
+treatments <- summary_df %>%
+  select("rep","treatment")
+
+df_emergence <- df_emergence %>%
+  left_join(treatments)
+
+
+df_emergence %>%
+  ggplot(aes(treatment, fill = treatment))+
+  geom_bar()
+
+
+# graveyard ####
 
 
 # test of a cox model

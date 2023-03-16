@@ -1,109 +1,109 @@
-plate,well,treatment,end_status_long,end_status,time_to_event,remaining_pollen,prewinter_cocoon_weight,days_to_def,def_to_cocoon,larva_stage,larva_nest,larva_number
-Plate1,A7,LbA,coccoon,1,26,0,0.0834,5,21,egg,24,6
-Plate1,A9,C,coccoon,1,19,0,0.059,4,15,larva,24,2
-Plate1,C1,Lb,coccoon,1,23,0,0.0722,4,19,larva,21,4
-Plate1,C7,A,coccoon,1,23,0,0.0786,4,19,egg no pedestal,21,8
-Plate1,C9,LbA,coccoon,1,23,0,0.073,4,19,larva,21,6
-Plate1,C11,LbA,coccoon,1,34,1,0.0773,7,27,egg,16,9
-Plate1,E3,Lb,coccoon,1,23,0,0.0818,4,19,larva,16,5
-Plate1,E9,HbA,coccoon,1,34,0,0.0881,5,29,egg,16,7
-Plate1,E11,Hb,coccoon,1,29,2,0.0479,4,25,larva,16,2
-Plate1,G5,Lb,coccoon,1,23,0,0.0833,4,19,larva,11,4
-Plate1,G7,LbA,coccoon,1,26,0,0.0884,4,22,larva,13,4
-Plate1,G9,C,coccoon,1,26,0,0.0784,4,22,larva,11,5
-Plate2,A1,HbA,coccoon,1,29,0,0.077,4,25,larva,39,4
-Plate2,A3,HbA,dead,2,34,,,4,,larva,38,5
-Plate2,A5,LbA,coccoon,1,26,0,0.0945,4,22,larva,39,3
-Plate2,A7,A,coccoon,1,34,2,0.0506,4,30,larva no pesdestal,39,5
-Plate2,A9,HbA,coccoon,1,29,2,0.0273,4,25,larva,38,4
-Plate2,A11,Hb,dead,2,34,,,5,,egg no pedestal,38,3
-Plate2,C1,Lb,coccoon,1,34,2,0.07,10,24,egg no pedestal,38,6
-Plate2,C3,C,removed_dead,,,,,,0,egg no pedestal,33,3
-Plate2,C5,Hb,coccoon,1,34,2,0.0586,6,28,egg no pedestal,33,5
-Plate2,C7,C,dead,2,13,,,9,,egg no pedestal,33,6
-Plate2,C9,LbA,coccoon,1,26,1,0.08,5,21,egg,36,5
-Plate2,C11,LbA,coccoon,1,26,1,0.0836,5,21,egg,33,4
-Plate2,E1,A,coccoon,1,26,2,0.062,4,22,larva,34,5
-Plate2,E3,Hb,coccoon,1,23,2,0.0616,3,20,larva,36,3
-Plate2,E5,Hb,coccoon,1,26,1,0.0717,3,23,larva,34,4
-Plate2,E7,C,coccoon,1,26,0,0.0918,4,22,egg,34,6
-Plate2,E9,HbA,coccoon,1,34,2,0.0516,4,30,larva,36,4
-Plate2,E11,Lb,coccoon,1,29,0,0.0743,5,24,egg no pedestal,32,1
-Plate2,G1,A,coccoon,1,23,0,0.0841,3,20,larva,30,2
-Plate2,G3,Lb,coccoon,1,34,2,0.0544,7,27,larva no pesdestal,31,2
-Plate2,G5,LbA,coccoon,1,26,0,0.0693,6,20,egg no pedestal,31,3
-Plate2,G7,Lb,coccoon,1,19,0,0.0825,4,15,larva,30,1
-Plate2,G9,A,coccoon,1,19,0,0.0823,4,15,larva,3,2
-Plate2,G11,C,coccoon,1,26,0,0.0854,5,21,larva ,1,8
-Plate3,A1,Hb,coccoon,1,23,3,0.0212,4,19,larva,1,7
-Plate3,A3,LbA,coccoon,1,26,0,0.0815,4,22,larva,1,6
-Plate3,A5,LbA,coccoon,1,23,0,0.067,3,20,larva,1,5
-Plate3,A7,HbA,coccoon,1,26,3,0.0323,3,23,larva,1,4
-Plate3,A9,Hb,coccoon,1,29,1,0.076,4,25,egg no pedestal,31,1
-Plate3,A11,A,coccoon,1,29,1,0.0768,5,24,egg no pedestal,32,3
-Plate3,C1,HbA,coccoon,1,34,0,0.0836,4,30,egg no pedestal,32,2
-Plate3,C3,Hb,coccoon,1,29,2,0.068,5,24,egg no pedestal,37,1
-Plate3,C5,C,coccoon,1,26,0,0.0835,4,22,larva,37,2
-Plate3,C7,HbA,dead,2,9,,,5,,egg no pedestal,35,3
-Plate3,C9,Lb,coccoon,1,26,0,0.0757,5,21,egg no pedestal,31,4
-Plate3,C11,A,coccoon,1,26,0,0.0823,5,21,egg,32,4
-Plate3,E1,LbA,removed_dead,,,,,,,"larvae, fell off pedestal",35,1
-Plate3,E3,A,coccoon,1,23,0,0.0854,3,20,larva,35,2
-Plate3,E5,Lb,coccoon,1,26,0,0.0835,5,21,egg no pedestal,18,6
-Plate3,E7,Lb,coccoon,1,23,0,0.0819,3,20,larva,17,2
-Plate3,E9,C,coccoon,1,23,0,0.0794,3,20,larva,17,3
-Plate3,E11,Hb,coccoon,1,34,1,0.0725,5,29,egg no pedestal,18,5
-Plate3,G1,C,coccoon,1,29,1,0.0797,4,25,larva,18,3
-Plate3,G3,Lb,coccoon,1,29,0,0.0867,6,23,egg,18,8
-Plate3,G5,LbA,coccoon,1,29,0,0.0797,5,24,egg,18,7
-Plate3,G7,HbA,coccoon,1,26,0,0.0831,4,22,larva,18,4
-Plate3,G9,C,coccoon,1,29,0,0.0825,3,26,larva,18,2
-Plate3,G11,A,coccoon,1,23,0,0.0829,3,20,larva,2,4
-Plate4,A1,LbA,coccoon,1,23,0,0.066,3,20,larva,8,5
-Plate4,A3,A,coccoon,1,23,0,0.0775,3,20,larva,8,3
-Plate4,A5,C,coccoon,1,23,0,0.0807,3,20,larva,8,4
-Plate4,A7,Lb,coccoon,1,23,0,0.0858,2,21,larva,4,1
-Plate4,A9,C,coccoon,1,23,2,0.0618,3,20,larva,4,2
-Plate4,A11,HbA,coccoon,1,26,3,0.0271,3,23,larva,26,5
-Plate4,C1,Lb,coccoon,1,26,0,0.0845,4,22,larva,27,3
-Plate4,C3,HbA,coccoon,1,29,1,0.0701,4,25,egg,26,6
-Plate4,C5,Lb,coccoon,1,26,0,0.0655,5,21,larva,25,4
-Plate4,C7,C,coccoon,1,26,0,0.0837,4,22,egg,23,5
-Plate4,C9,A,coccoon,1,23,1,0.0654,4,19,egg,23,7
-Plate4,C11,Lb,coccoon,1,26,0,0.0869,5,21,egg,23,8
-Plate4,E1,Hb,coccoon,1,26,2,0.0516,3,23,larva,23,3
-Plate4,E3,Hb,coccoon,1,29,3,0.0545,3,26,larva,23,4
-Plate4,E5,LbA,coccoon,1,26,0,0.0851,4,22,egg,22,6
-Plate4,E7,LbA,coccoon,1,26,0,0.0838,4,22,larva,22,4
-Plate4,E9,C,coccoon,1,26,0,0.0857,5,21,egg,23,9
-Plate4,E11,LbA,coccoon,1,34,1,0.0518,5,29,egg no pedestal,22,7
-Plate4,G1,A,coccoon,1,23,0,0.0885,2,21,larva,23,3
-Plate4,G3,HbA,coccoon,1,23,0,0.0817,2,21,larva,23,1
-Plate4,G5,HbA,coccoon,1,29,2,0.0477,4,25,larva,22,5
-Plate4,G7,Hb,coccoon,1,29,0,0.0962,4,25,larva,14,4
-Plate4,G9,Hb,coccoon,1,26,0,0.0812,4,22,larva,15,5
-Plate4,G11,A,coccoon,1,26,0,0.0897,4,22,larva,15,4
-Plate5,A1,C,coccoon,1,26,0,0.0784,3,23,larva,15,3
-Plate5,A3,HbA,dead,2,8,,,5,,larva,12,6
-Plate5,A5,A,coccoon,1,29,1,0.0919,5,24,egg,14,6
-Plate5,A7,Lb,coccoon,1,26,0,0.0869,5,21,larva,14,5
-Plate5,A9,Lb,coccoon,1,26,0,0.0927,5,21,egg no pedestal,10,5
-Plate5,A11,HbA,coccoon,1,29,0,0.0881,5,24,egg,10,6
-Plate5,C1,HbA,dead,2,26,,,4,,egg,10,4
-Plate5,C3,C,coccoon,1,23,2,0.0676,4,19,larva,12,4
-Plate5,C5,Lb,coccoon,1,23,1,0.0901,3,20,larva,12,5
-Plate5,C7,LbA,coccoon,1,23,1,0.0831,3,20,larva,12,3
-Plate5,C9,LbA,coccoon,1,23,0,0.0921,4,19,larva,9,5
-Plate5,C11,Hb,coccoon,1,26,0,0.0826,3,23,larva,9,3
-Plate5,E1,LbA,coccoon,1,26,0,0.0848,4,22,larva,7,4
-Plate5,E3,Hb,coccoon,1,26,0,0.0843,4,22,egg,7,5
-Plate5,E5,A,coccoon,1,23,0,0.0847,3,20,larva,7,3
-Plate5,E7,A,coccoon,1,20,0,0.0856,3,17,larva,9,4
-Plate5,E9,Lb,coccoon,1,26,0,0.0845,4,22,larva,6,5
-Plate5,E11,LbA,coccoon,1,23,0,0.09,3,20,larva,3,4
-Plate5,G1,Hb,coccoon,1,29,1,0.0793,4,25,larva,6,4
-Plate5,G3,Hb,coccoon,1,23,0,0.088,3,20,larva,6,2
-Plate5,G5,C,coccoon,1,23,0,0.0827,3,20,larva,6,3
-Plate5,G7,A,coccoon,1,29,0,0.0876,5,24,egg,19,6
-Plate5,G9,HbA,coccoon,1,29,1,0.0846,5,24,larva,20,5
-Plate5,G11,C,coccoon,1,26,0,0.085,4,22,larva,20,4
+rep,plate,well,treatment,end_status_long,end_status,time_to_event,remaining_pollen,prewinter_cocoon_weight,days_to_def,def_to_cocoon,larva_stage,larva_nest,larva_number
+1a7,Plate1,a7,LbA,coccoon,1,26,0,0.0834,5,21,egg,24,6
+1a9,Plate1,a9,C,coccoon,1,19,0,0.059,4,15,larva,24,2
+1c1,Plate1,c1,Lb,coccoon,1,23,0,0.0722,4,19,larva,21,4
+1c7,Plate1,c7,A,coccoon,1,23,0,0.0786,4,19,egg no pedestal,21,8
+1c9,Plate1,c9,LbA,coccoon,1,23,0,0.073,4,19,larva,21,6
+1c11,Plate1,c11,LbA,coccoon,1,34,1,0.0773,7,27,egg,16,9
+1e3,Plate1,e3,Lb,coccoon,1,23,0,0.0818,4,19,larva,16,5
+1e9,Plate1,e9,HbA,coccoon,1,34,0,0.0881,5,29,egg,16,7
+1e11,Plate1,e11,Hb,coccoon,1,29,2,0.0479,4,25,larva,16,2
+1g5,Plate1,g5,Lb,coccoon,1,23,0,0.0833,4,19,larva,11,4
+1g7,Plate1,g7,LbA,coccoon,1,26,0,0.0884,4,22,larva,13,4
+1g9,Plate1,g9,C,coccoon,1,26,0,0.0784,4,22,larva,11,5
+2a1,Plate2,a1,HbA,coccoon,1,29,0,0.077,4,25,larva,39,4
+2a3,Plate2,a3,HbA,dead,2,34,,,4,,larva,38,5
+2a5,Plate2,a5,LbA,coccoon,1,26,0,0.0945,4,22,larva,39,3
+2a7,Plate2,a7,A,coccoon,1,34,2,0.0506,4,30,larva no pesdestal,39,5
+2a9,Plate2,a9,HbA,coccoon,1,29,2,0.0273,4,25,larva,38,4
+2a11,Plate2,a11,Hb,dead,2,34,,,5,,egg no pedestal,38,3
+2c1,Plate2,c1,Lb,coccoon,1,34,2,0.07,10,24,egg no pedestal,38,6
+2c3,Plate2,c3,C,removed_dead,,,,,,0,egg no pedestal,33,3
+2c5,Plate2,c5,Hb,coccoon,1,34,2,0.0586,6,28,egg no pedestal,33,5
+2c7,Plate2,c7,C,dead,2,13,,,9,,egg no pedestal,33,6
+2c9,Plate2,c9,LbA,coccoon,1,26,1,0.08,5,21,egg,36,5
+2c11,Plate2,c11,LbA,coccoon,1,26,1,0.0836,5,21,egg,33,4
+2e1,Plate2,e1,A,coccoon,1,26,2,0.062,4,22,larva,34,5
+2e3,Plate2,e3,Hb,coccoon,1,23,2,0.0616,3,20,larva,36,3
+2e5,Plate2,e5,Hb,coccoon,1,26,1,0.0717,3,23,larva,34,4
+2e7,Plate2,e7,C,coccoon,1,26,0,0.0918,4,22,egg,34,6
+2e9,Plate2,e9,HbA,coccoon,1,34,2,0.0516,4,30,larva,36,4
+2e11,Plate2,e11,Lb,coccoon,1,29,0,0.0743,5,24,egg no pedestal,32,1
+2g1,Plate2,g1,A,coccoon,1,23,0,0.0841,3,20,larva,30,2
+2g3,Plate2,g3,Lb,coccoon,1,34,2,0.0544,7,27,larva no pesdestal,31,2
+2g5,Plate2,g5,LbA,coccoon,1,26,0,0.0693,6,20,egg no pedestal,31,3
+2g7,Plate2,g7,Lb,coccoon,1,19,0,0.0825,4,15,larva,30,1
+2g9,Plate2,g9,A,coccoon,1,19,0,0.0823,4,15,larva,3,2
+2g11,Plate2,g11,C,coccoon,1,26,0,0.0854,5,21,larva ,1,8
+3a1,Plate3,a1,Hb,coccoon,1,23,3,0.0212,4,19,larva,1,7
+3a3,Plate3,a3,LbA,coccoon,1,26,0,0.0815,4,22,larva,1,6
+3a5,Plate3,a5,LbA,coccoon,1,23,0,0.067,3,20,larva,1,5
+3a7,Plate3,a7,HbA,coccoon,1,26,3,0.0323,3,23,larva,1,4
+3a9,Plate3,a9,Hb,coccoon,1,29,1,0.076,4,25,egg no pedestal,31,1
+3a11,Plate3,a11,A,coccoon,1,29,1,0.0768,5,24,egg no pedestal,32,3
+3c1,Plate3,c1,HbA,coccoon,1,34,0,0.0836,4,30,egg no pedestal,32,2
+3c3,Plate3,c3,Hb,coccoon,1,29,2,0.068,5,24,egg no pedestal,37,1
+3c5,Plate3,c5,C,coccoon,1,26,0,0.0835,4,22,larva,37,2
+3c7,Plate3,c7,HbA,dead,2,9,,,5,,egg no pedestal,35,3
+3c9,Plate3,c9,Lb,coccoon,1,26,0,0.0757,5,21,egg no pedestal,31,4
+3c11,Plate3,c11,A,coccoon,1,26,0,0.0823,5,21,egg,32,4
+3e1,Plate3,e1,LbA,removed_dead,,,,,,,"larvae, fell off pedestal",35,1
+3e3,Plate3,e3,A,coccoon,1,23,0,0.0854,3,20,larva,35,2
+3e5,Plate3,e5,Lb,coccoon,1,26,0,0.0835,5,21,egg no pedestal,18,6
+3e7,Plate3,e7,Lb,coccoon,1,23,0,0.0819,3,20,larva,17,2
+3e9,Plate3,e9,C,coccoon,1,23,0,0.0794,3,20,larva,17,3
+3e11,Plate3,e11,Hb,coccoon,1,34,1,0.0725,5,29,egg no pedestal,18,5
+3g1,Plate3,g1,C,coccoon,1,29,1,0.0797,4,25,larva,18,3
+3g3,Plate3,g3,Lb,coccoon,1,29,0,0.0867,6,23,egg,18,8
+3g5,Plate3,g5,LbA,coccoon,1,29,0,0.0797,5,24,egg,18,7
+3g7,Plate3,g7,HbA,coccoon,1,26,0,0.0831,4,22,larva,18,4
+3g9,Plate3,g9,C,coccoon,1,29,0,0.0825,3,26,larva,18,2
+3g11,Plate3,g11,A,coccoon,1,23,0,0.0829,3,20,larva,2,4
+4a1,Plate4,a1,LbA,coccoon,1,23,0,0.066,3,20,larva,8,5
+4a3,Plate4,a3,A,coccoon,1,23,0,0.0775,3,20,larva,8,3
+4a5,Plate4,a5,C,coccoon,1,23,0,0.0807,3,20,larva,8,4
+4a7,Plate4,a7,Lb,coccoon,1,23,0,0.0858,2,21,larva,4,1
+4a9,Plate4,a9,C,coccoon,1,23,2,0.0618,3,20,larva,4,2
+4a11,Plate4,a11,HbA,coccoon,1,26,3,0.0271,3,23,larva,26,5
+4c1,Plate4,c1,Lb,coccoon,1,26,0,0.0845,4,22,larva,27,3
+4c3,Plate4,c3,HbA,coccoon,1,29,1,0.0701,4,25,egg,26,6
+4c5,Plate4,c5,Lb,coccoon,1,26,0,0.0655,5,21,larva,25,4
+4c7,Plate4,c7,C,coccoon,1,26,0,0.0837,4,22,egg,23,5
+4c9,Plate4,c9,A,coccoon,1,23,1,0.0654,4,19,egg,23,7
+4c11,Plate4,c11,Lb,coccoon,1,26,0,0.0869,5,21,egg,23,8
+4e1,Plate4,e1,Hb,coccoon,1,26,2,0.0516,3,23,larva,23,3
+4e3,Plate4,e3,Hb,coccoon,1,29,3,0.0545,3,26,larva,23,4
+4e5,Plate4,e5,LbA,coccoon,1,26,0,0.0851,4,22,egg,22,6
+4e7,Plate4,e7,LbA,coccoon,1,26,0,0.0838,4,22,larva,22,4
+4e9,Plate4,e9,C,coccoon,1,26,0,0.0857,5,21,egg,23,9
+4e11,Plate4,e11,LbA,coccoon,1,34,1,0.0518,5,29,egg no pedestal,22,7
+4g1,Plate4,g1,A,coccoon,1,23,0,0.0885,2,21,larva,23,3
+4g3,Plate4,g3,HbA,coccoon,1,23,0,0.0817,2,21,larva,23,1
+4g5,Plate4,g5,HbA,coccoon,1,29,2,0.0477,4,25,larva,22,5
+4g7,Plate4,g7,Hb,coccoon,1,29,0,0.0962,4,25,larva,14,4
+4g9,Plate4,g9,Hb,coccoon,1,26,0,0.0812,4,22,larva,15,5
+4g11,Plate4,g11,A,coccoon,1,26,0,0.0897,4,22,larva,15,4
+5a1,Plate5,a1,C,coccoon,1,26,0,0.0784,3,23,larva,15,3
+5a3,Plate5,a3,HbA,dead,2,8,,,5,,larva,12,6
+5a5,Plate5,a5,A,coccoon,1,29,1,0.0919,5,24,egg,14,6
+5a7,Plate5,a7,Lb,coccoon,1,26,0,0.0869,5,21,larva,14,5
+5a9,Plate5,a9,Lb,coccoon,1,26,0,0.0927,5,21,egg no pedestal,10,5
+5a11,Plate5,a11,HbA,coccoon,1,29,0,0.0881,5,24,egg,10,6
+5c1,Plate5,c1,HbA,dead,2,26,,,4,,egg,10,4
+5c3,Plate5,c3,C,coccoon,1,23,2,0.0676,4,19,larva,12,4
+5c5,Plate5,c5,Lb,coccoon,1,23,1,0.0901,3,20,larva,12,5
+5c7,Plate5,c7,LbA,coccoon,1,23,1,0.0831,3,20,larva,12,3
+5c9,Plate5,c9,LbA,coccoon,1,23,0,0.0921,4,19,larva,9,5
+5c11,Plate5,c11,Hb,coccoon,1,26,0,0.0826,3,23,larva,9,3
+5e1,Plate5,e1,LbA,coccoon,1,26,0,0.0848,4,22,larva,7,4
+5e3,Plate5,e3,Hb,coccoon,1,26,0,0.0843,4,22,egg,7,5
+5e5,Plate5,e5,A,coccoon,1,23,0,0.0847,3,20,larva,7,3
+5e7,Plate5,e7,A,coccoon,1,20,0,0.0856,3,17,larva,9,4
+5e9,Plate5,e9,Lb,coccoon,1,26,0,0.0845,4,22,larva,6,5
+5e11,Plate5,e11,LbA,coccoon,1,23,0,0.09,3,20,larva,3,4
+5g1,Plate5,g1,Hb,coccoon,1,29,1,0.0793,4,25,larva,6,4
+5g3,Plate5,g3,Hb,coccoon,1,23,0,0.088,3,20,larva,6,2
+5g5,Plate5,g5,C,coccoon,1,23,0,0.0827,3,20,larva,6,3
+5g7,Plate5,g7,A,coccoon,1,29,0,0.0876,5,24,egg,19,6
+5g9,Plate5,g9,HbA,coccoon,1,29,1,0.0846,5,24,larva,20,5
+5g11,Plate5,g11,C,coccoon,1,26,0,0.085,4,22,larva,20,4
