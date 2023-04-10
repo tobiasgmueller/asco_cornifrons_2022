@@ -166,6 +166,20 @@ df_emergence %>%
   geom_bar()
 
 
+
+# which never emerged
+
+
+df_emergence %>%
+  filter(date == "never") %>%
+  ggplot(aes(treatment, fill = treatment))+
+  geom_bar()
+
+
+
+
+
+
 # graveyard ####
 
 
